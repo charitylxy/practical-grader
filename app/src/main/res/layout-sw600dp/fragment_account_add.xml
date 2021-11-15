@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:layout_marginStart="15dp"
+android:layout_marginTop="20dp"
+android:layout_marginEnd="15dp"
+android:orientation="vertical">
+
+<TextView
+    android:id="@+id/titleHeader"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fontFamily="sans-serif-black"
+    android:text="@string/addInstructor"
+    android:textSize="32sp"
+    android:textStyle="bold" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/titleAccName"
+        android:layout_width="41dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/accName"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/txtStuName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:textSize="20sp"
+        android:inputType="textPersonName" />
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/titleAccEmail"
+        android:layout_width="42dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/accEmail"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/txtAccEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:textSize="20sp"
+        android:inputType="textEmailAddress" />
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/titleAccCountry"
+        android:layout_width="543dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/accCountry"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:id="@+id/countrySpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/titleAccUsername"
+        android:layout_width="39dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="20sp"
+        android:text="@string/accUsername" />
+
+    <EditText
+        android:id="@+id/txtAccUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:textSize="20sp"
+        android:inputType="textPersonName"/>
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/titleAccPin"
+        android:layout_width="39dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="20sp"
+        android:text="@string/accPin" />
+
+    <EditText
+        android:id="@+id/txtAccPin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:maxLength="4"
+        android:textSize="20sp"
+        android:inputType="numberPassword" />
+</LinearLayout>
+
+<Button
+    android:id="@+id/btnAddAccount"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="20dp"
+    android:background="@drawable/button_style"
+    android:text="@string/addButton"
+    android:textSize="16sp"
+    android:textColor="@color/white" />
+
+
+</LinearLayout>

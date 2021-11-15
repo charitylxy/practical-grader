@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="isTablet"> false</bool>
+    <string name="app_name">Practical Grader</string>
+    <!-- Sign in / Register -->
+    <string name="next">NEXT</string>
+    <string name="register">REGISTER</string>
+    <string name="login">LOG IN</string>
+    <string name="pin_instruction">Please enter your pin</string>
+    <string name="reenter_pin">Please re-enter your pin</string>
+    <string name="dialog_message">
+        Is the admin account set up before?
+        If no, we will proceed with the account registration.
+    </string>
+    <string name="dialog_title">Admin Account</string>
+
+    <!-- Menu Title -->
+    <string name="student_menu">Student</string>
+    <string name="instructor_menu">Instructor</string>
+    <string name="practical_menu">Practicals</string>
+    <string name="mark_menu">Marking</string>
+
+    <!-- Add Account -->
+    <string name="addInstructor">Add Instructor</string>
+    <string name="addStudent">Add Student</string>
+    <string name="accName">Name:</string>
+    <string name="accEmail">Email:</string>
+    <string name="accUsername">Username:</string>
+    <string name="accPin">Pin:</string>
+    <string name="accCountry">Country:</string>
+    <string name="addButton">Add</string>
+    <string name="saveButton">Save</string>
+    <string name="viewResButton">View Results</string>
+
+    <!-- Add Practical -->
+    <string name="addPractical">Add Practical</string>
+    <string name="editPractical">Edit Practical</string>
+    <string name="practical">Practical</string>
+    <string name="pracTitle">Title: </string>
+    <string name="pracDesc">Description:</string>
+    <string name="pracMarks">Total Marks:</string>
+
+    <!-- Marking -->
+    <string name="stuName">Student Name:</string>
+    <string name="pracName">Practical:</string>
+    <string name="inputMarks">Marks Scored:</string>
+    <string name="addMarks">Add Marks</string>
+    <string name="totalMarks">Total Marks:</string>
+    <string name="result"> <u>Result Breakdown</u>.</string>
+</resources>
